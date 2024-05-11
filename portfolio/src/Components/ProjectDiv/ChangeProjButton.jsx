@@ -1,5 +1,5 @@
-import LeftImg from "../imgs/icons/arrows/leftArrow48.png"
-import RightImg from "../imgs/icons/arrows/rightArrow48.png"
+import LeftImg from "../../imgs/icons/arrows/leftArrow48.png"
+import RightImg from "../../imgs/icons/arrows/rightArrow48.png"
 
 export default function ChangeProjButton({dir, onClick}) {
 

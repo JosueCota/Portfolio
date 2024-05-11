@@ -1,8 +1,7 @@
-import style from "./showcase.module.css"
 
 export default function Showcase({children}) {
     return (
-        <div className={style.container}>
+        <div className="mt-2 w-11/12 grid grid-cols-showcase">
             {children}
         </div>
     )
