@@ -1,7 +1,7 @@
 export const projects = [
     {
         projectName: "Portfolio",
-        projectDesc: "Showcasing the progress I've made throughout my academic career; illustrated through my projects and skills.",
+        projectDesc: "Showcasing the progress I've made throughout my academic career using ReactJS along with TailwindCSS.",
         projectImg: "../../src/imgs/icons/skills/react.svg",
         projectLink: "https://github.com/JosueCota/JosueCota.github.io",
         projectSkills:

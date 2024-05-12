@@ -3,7 +3,10 @@
 }
 
 html {
-  background-color: #F3F4F5;
+  background-color: #FFFBE7;
+  color: #c97b7b;
+  color: black;
+  /* background-image: linear-gradient(to top, #fffbe7, #f6e8d1, #efd5bd, #e8c2ac, #e1ae9f, #ca978f, #b3827f, #9b6d70, #725155, #4b373a, #281f21, #000000); */
   font-size: 30px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

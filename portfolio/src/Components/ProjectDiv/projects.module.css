@@ -1,7 +1,8 @@
 .container {
     display: grid;
-    align-items: center;
     grid: 1fr / 1fr 1fr 1fr;
     justify-items: center;
     margin: 45px;
+    align-items: center;
 }
+

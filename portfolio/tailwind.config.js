@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        'showcase': "1.4fr 1fr"
+        'showcase': "1fr 1fr"
       },
-      gridTemplateRows: {
-        "projects": "90% 1fr"
+      colors: {
+        "grey": "#254955"
       }
     },
   },
