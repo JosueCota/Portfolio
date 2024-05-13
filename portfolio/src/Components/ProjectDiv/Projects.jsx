@@ -11,8 +11,6 @@ export default function Projects() {
 
     function handleFlipClick() {
         setFront(prev => !prev);
-
-        //Animation FlipCard
     }
 
     const handleLeftClick = () => {

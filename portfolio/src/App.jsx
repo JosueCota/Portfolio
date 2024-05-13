@@ -13,13 +13,12 @@ function App() {
     <>
       <NavBar/>
       <motion.div 
-        animate={{rotate: 360}}
+        animate={{rotate: 0}}
       >
 
       <Routes>
         <Route path='/' element={<About/>}/>
         <Route path='/showcase' element={<Showcase/>} />
-        <Route path='/contacts' element={<Contacts/>} />
       </Routes>
 
       </motion.div>

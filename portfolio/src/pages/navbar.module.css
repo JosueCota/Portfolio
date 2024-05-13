@@ -1,19 +1,18 @@
 .links {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
     color: white;
     background-color: #222;
     width: 100%;
-}
-
-.links li {
-    margin: 10px 40px;
     padding: 10px;
 }
 
-.links li:hover {
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+.link {
+    margin: 10px 40px;
+}
+
+.link:hover {
+    color: rgb(224, 208, 208);
 }
