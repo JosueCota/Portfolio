@@ -8,5 +8,12 @@
 }
 
 .links li {
-    margin: 20px 40px;
+    margin: 10px 40px;
+    padding: 10px;
+}
+
+.links li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
 }

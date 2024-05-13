@@ -4,9 +4,9 @@ export const projects = [
         projectDesc: "Showcasing the progress I've made throughout my academic career using ReactJS along with TailwindCSS.",
         projectImg: "../../src/imgs/icons/skills/react.svg",
         projectLink: "https://github.com/JosueCota/JosueCota.github.io",
-        projectSkills:
+        skills:
             [
-                "HTML", "CSS", "JavaScript","Bootstrap", "JQuery", "Github","Web Design"
+                "ReactJS","Tailwind", "Framer Motion", "Figma"
             ],
         date: "Spring 2024"
     },
@@ -15,9 +15,9 @@ export const projects = [
         "projectDesc": "A 2D platformer made with a group of artists and programmers for the Video Game Development Club at CSUF.",
         projectImg: "../../src/imgs/projectImages/speedsters.png",
         projectLink: "https://wafflefish.itch.io/speedsters",
-        projectSkills:
+        skills:
             [
-                "C#", "Unity", "Github", "Agile", "Scrum", "Teamwork"
+                "C#", "Unity", "Github", "Agile", "Scrum"
             ],
         date: "Fall 2023"
     },
@@ -26,7 +26,7 @@ export const projects = [
         projectDesc: "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
         projectImg: "../../src/imgs/projectImages/weather-app.png",
         projectLink: "https://github.com/JhoshuaAmpo/Speedsters",
-        projectSkills:
+        skills:
             [
                 "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
             ],

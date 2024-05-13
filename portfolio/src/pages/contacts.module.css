@@ -1,7 +1,6 @@
 .contactsContainer {
     width: 60%;
     background-color: #254955;
-    background: linear-gradient(0deg, rgba(123,191,215,1) 18%, rgba(65,131,154,1) 69%, rgba(37,73,85,1) 92%);
     border-radius: 10px;
     margin: 100px auto;
     color: white;
@@ -11,6 +10,7 @@
     justify-content: center;
     padding: 40px;
     height: 30vw;
+    transform: r;
 }
 .p {
     text-align: center;  

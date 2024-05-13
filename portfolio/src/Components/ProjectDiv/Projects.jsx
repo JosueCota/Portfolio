@@ -7,16 +7,10 @@ import ChangeProjButton from "./ChangeProjButton";
 
 export default function Projects() {
     const [projectInd, setProjectIndex] = useState(0);
-    const [facing, setFacing] = useState("front");
+    const [front, setFront] = useState(true);
 
     function handleFlipClick() {
-        setFacing((prev) => {
-           if (prev=== "front"){
-            return "back"
-           } else {
-            return "front"
-           }
-        });
+        setFront(prev => !prev);
 
         //Animation FlipCard
     }
@@ -27,7 +21,7 @@ export default function Projects() {
         } else {
             setProjectIndex(projects.length-1)
         }
-        if(facing=== "back") {
+        if(front=== false) {
             handleFlipClick()
         }
     } 
@@ -38,7 +32,7 @@ export default function Projects() {
         } else {
             setProjectIndex(0)
         }
-        if(facing=== "back") {
+        if(front=== false) {
             handleFlipClick()
         }
     } 
@@ -48,7 +42,7 @@ export default function Projects() {
             <h1 className="text-3xl text-center">Projects</h1>
             <div className={style.container}>
                 <ChangeProjButton onClick={handleLeftClick} dir="left"/>
-                <Project project={projects[projectInd]} setFacing={setFacing} facing={facing} handleFlipClick={handleFlipClick}/>
+                <Project project={projects[projectInd]} setFront={setFront} front={front} handleFlipClick={handleFlipClick}/>
                 <ChangeProjButton dir={"right"} onClick={handleRightClick}/>
             </div>
         </div>
