@@ -34,7 +34,7 @@ export default function Skill({skills, title}) {
                         viewport={{once: true}}
                         custom={index}
                     >
-                        <img className={style.skillsImg} src={`./src/assets/images/icons/skills/${skill}.svg`} title={skill.toUpperCase()}/>
+                        <img className={style.skillsImg} src={`./src/public/static/images/icons/skills/${skill}.svg`} title={skill.toUpperCase()}/>
                     </motion.li> 
                 ))}
             </ul>
