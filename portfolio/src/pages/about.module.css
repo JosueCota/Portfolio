@@ -4,8 +4,6 @@
     width: 80%;
     margin: 10px auto;
     justify-content: center;
-    align-items: center;
-    align-content: center;
     margin-top: 100px;
 }
 
@@ -34,3 +32,36 @@
 .par {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+@media screen and (max-width: 1700px ){
+    .hero {
+        margin-top: 40px;
+        align-items: center;
+        grid-template-columns: 45% 45%;
+    }
+    .sidebar {
+        grid-area: 3 / 1 / span 3 / span 2;
+        justify-self: center;
+        width: 70%;
+        margin-left: 0px;
+        margin: 50px;
+        
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .hero {
+        display: flex;
+        flex-flow: column wrap;
+        text-align: center;
+        width: 90%;
+    }
+    .plans {
+        margin-left: 0px;
+    }
+    .sidebar {
+        width: 90%;
+    }
+}
+
+/* 800px remove text */

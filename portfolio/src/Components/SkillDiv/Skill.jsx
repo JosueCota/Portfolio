@@ -1,4 +1,5 @@
-import { delay, motion, transform } from "framer-motion"
+import { motion } from "framer-motion"
+import style from "./skills.module.css"
 
 const fadeInVarient = {
     initial: {
@@ -11,26 +12,28 @@ const fadeInVarient = {
         transition: {
             delay: 0.3 + 0.05 * index
         }
-    })
+    }),
+    hover: {
+        scale: 1.3,
+    }
 }
 
 export default function Skill({skills, title}) {
 
-    
-
     return (
-        <div className="my-4 border border-2 rounded-3xl p-5 font-semibold underline">
-            <h3 className="mx-auto">{title}:</h3>
-            <ul className="flex flex-wrap justify-evenly">
+        <div className={style.skillContainer}>
+            <h3 className={style.skillTitle}>{title}:</h3>
+            <ul className={style.skillList}>
                 {skills.map((skill, index) => (
                     <motion.li key={skill}
                         variants={fadeInVarient}
                         initial="initial"
                         whileInView="animate"
+                        whileHover="hover"
                         viewport={{once: true}}
                         custom={index}
                     >
-                        <img className="aspect-square w-8 hover:scale-150 m-3" src={`../../src/imgs/icons/skills/${skill}.svg`} title={skill.toUpperCase()}/>
+                        <img className={style.skillsImg} src={`../../src/imgs/icons/skills/${skill}.svg`} title={skill.toUpperCase()}/>
                     </motion.li> 
                 ))}
             </ul>

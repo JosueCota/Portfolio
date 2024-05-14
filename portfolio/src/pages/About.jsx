@@ -18,10 +18,10 @@ const listStagger = {
 export default function About() {
     return (
         <div className={style.hero}>
-
+            
             <div className={style.about}>
                 <h1 className={style.title}>About Me</h1>
-                <p className={style.par}>My name's Josue Cota and I'm currently an undergraduate at CSUF, majoring in Computer Science. I'm a member of the ACM club as well as the Video Game Development Club and I previously attended Cypress College and graduating this December. </p>
+                <p className={style.par}>My name's Josue Cota and I'm currently an undergraduate at CSUF, majoring in Computer Science. I'm a member of the ACM club as well as the Video Game Development Club and I previously attended Cypress College and will be graduating this December. </p>
             </div>
             <div className={style.hobbies}>
                 <h1 className={style.title}>Hobbies</h1>

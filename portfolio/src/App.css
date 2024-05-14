@@ -3,8 +3,7 @@
 }
 
 html {
-  background-color: #f1f0ea;
-
+  background-color: var(--primary);
   color: black;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
