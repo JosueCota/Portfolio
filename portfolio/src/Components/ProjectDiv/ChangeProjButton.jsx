@@ -5,7 +5,7 @@ import style  from "./project.module.css"
 export default function ChangeProjButton({dir, onClick}) {
 
     const img = (dir === "left") ? LeftImg: RightImg;   
-    
+    const dirs = dir;
     const imgs = {
         border: "none",
         backgroundColor: "transparent",

@@ -7,12 +7,19 @@
 }
 
 
-@media screen and (max-width: 1700px) {
+@media only screen and (max-width: 1700px) {
     .container {
         display: flex;
-        margin: 45px 0px;
+        margin: 25px 0px;
         justify-content: center;
     }
 }
 
-/* 750 px breakpoint */
+@media only screen and (max-width: 750px) {
+    .container {
+        flex-flow: column nowrap;
+        width: 500px;
+        height: 600px;
+        margin: 40px auto;
+    }
+}

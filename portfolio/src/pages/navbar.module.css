@@ -1,3 +1,7 @@
+.nav {
+    width: 100%;
+}
+
 .links {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
@@ -10,9 +14,15 @@
 }
 
 .link {
-    margin: 10px 40px;
+    margin: 10px 30px;
 }
 
 .link:hover {
     color: rgb(224, 208, 208);
+}
+
+@media screen and (max-width: 600px){
+    .w-full {
+        width: 100%;
+    }
 }

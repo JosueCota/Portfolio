@@ -44,3 +44,10 @@
         padding: 20px;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .skillContainer {
+        width: 100%;
+        margin: initial 0px;
+    }
+}

@@ -10,6 +10,13 @@
     .showcase{ 
         display: flex;
         flex-flow: column wrap;
+        max-height: min-content;
         align-content: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .showcase {
+        width: 100%;
     }
 }

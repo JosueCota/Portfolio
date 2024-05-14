@@ -1,7 +1,7 @@
 import ProjectFront from "./ProjectFront";
 import ProjectBack from "./ProjectBack";
 import style from "./project.module.css"
-import {animate, motion, transform} from "framer-motion"
+import { motion } from "framer-motion"
 
 
 export default function Project({project, front, handleFlipClick}) {

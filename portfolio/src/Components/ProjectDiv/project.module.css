@@ -108,3 +108,21 @@
 @media screen and (max-width: 1700px) {
     
 }
+
+@media screen and (max-width: 750px){
+    .cardContainer {
+        margin: 20px auto;
+        width: 500px;
+        height: 600px;
+        
+    }
+    .img, .top {
+        height: 400px;
+        width: 100%;
+    }
+    .cardFront, .cardBack {
+        height: 100%;
+        width: 100%;
+    }
+    
+}
