@@ -1,5 +1,5 @@
 import style from "./about.module.css"
-import Contacts from "./Contacts"
+import Contacts from "../Components/Contacts"
 import {motion} from "framer-motion"
 
 //Shows skills in staggered fade in motion 
