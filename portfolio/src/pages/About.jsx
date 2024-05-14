@@ -39,7 +39,7 @@ export default function About() {
             <motion.div
                 variants={listStagger}
                 initial="initial"
-                animate="animate"
+                whileInView="animate"
                 className={style.sidebar}
             >
                 <Contacts></Contacts>
