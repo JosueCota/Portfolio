@@ -1,3 +1,5 @@
+//Project data, easier than implementing json with fetch, avoids possible errors from rejected promises
+
 export const projects = [
     {
         projectName: "Portfolio",

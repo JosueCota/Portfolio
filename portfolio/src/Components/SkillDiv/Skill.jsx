@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import style from "./skills.module.css"
 
+//Fade in and bubble animation of list of skills, stagger animation
 const fadeInVarient = {
     initial: {
         opacity: 0,

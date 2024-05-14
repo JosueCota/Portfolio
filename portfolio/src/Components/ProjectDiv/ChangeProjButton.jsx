@@ -2,10 +2,11 @@ import LeftImg from "../../imgs/icons/arrows/leftArrow48.png"
 import RightImg from "../../imgs/icons/arrows/rightArrow48.png"
 import style  from "./project.module.css"
 
+//Changes project
 export default function ChangeProjButton({dir, onClick}) {
 
     const img = (dir === "left") ? LeftImg: RightImg;   
-    const dirs = dir;
+
     const imgs = {
         border: "none",
         backgroundColor: "transparent",

@@ -1,6 +1,7 @@
 import {motion} from "framer-motion"
 import style from "./contacts.module.css"
 
+//Specifc animation each item does, fade in in this case
 const item = {
     initial: {
         opacity:0
@@ -10,6 +11,7 @@ const item = {
     }
 }
 
+//Contains contacts section
 export default function Contacts() {
 
     return (

@@ -3,7 +3,7 @@ import ProjectBack from "./ProjectBack";
 import style from "./project.module.css"
 import { motion } from "framer-motion"
 
-
+//Contains both front and back, flips when clicked
 export default function Project({project, front, handleFlipClick}) {
     
     const {projectName, projectDesc, projectLink, projectImg, date, skills} = project;

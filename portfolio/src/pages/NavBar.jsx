@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./navbar.module.css"
 
+//Nav bar that uses Link for routing
 export default function NavBar() {
 
     return (

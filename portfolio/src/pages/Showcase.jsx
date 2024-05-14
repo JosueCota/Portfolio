@@ -3,13 +3,12 @@ import Skills from "../Components/SkillDiv/Skills"
 import {motion} from "framer-motion"
 import style from "./showcase.module.css"
 
+//Supercontainer of showcase section, also has a fade in animation
 export default function Showcase() {
     return (
         
-        <motion.div className={style.showcase}
-            initial={{opacity: 0}}
-            animate={{opacity: 1}}
-            transition={{duration:.3}}
+        <motion.div className={style.showcase} 
+        
         >
             <Projects/>
             <Skills/>

@@ -3,20 +3,20 @@
     grid-template: 1fr 1fr/ 35%  35% 1fr;
     width: 80%;
     margin: 10px auto;
-    justify-content: center;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .about {
     grid-area: 1 / 1 / span 1 / span 2;
-
     margin-bottom: 20px;
 }
 .hobbies {
     grid-area: 2 / 1 / span 1 / span 1;
+    margin-right: 30px;
 }
 .plans {
-    margin-left: 20px;
+    margin: 0px 30px;
     grid-area: 2 / 2 / span 1 / span 1;
 }
 .sidebar {
@@ -47,6 +47,9 @@
         margin: 50px;
         
     }
+    .plans {
+        margin-right: 0px
+    }
 }
 
 @media screen and (max-width:1400px) {
@@ -63,8 +66,6 @@
         width: 90%;
     }
 }
-
-/* 800px remove text */
 
 @media screen and (max-width: 600px){
     .hero {

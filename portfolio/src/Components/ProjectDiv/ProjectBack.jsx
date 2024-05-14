@@ -1,6 +1,6 @@
 import style from "./project.module.css"
-import { motion } from "framer-motion"
 
+//Contains back of project
 export default function ProjectBack({projectDesc, projectLink, onClick, date, projectSkills}){
     
     return (

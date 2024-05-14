@@ -8,19 +8,14 @@ import {animate, motion, transform} from "framer-motion"
 
 function App() {
 
+  //Routes to 'showcase' and 'about', 'about' being the "defualt" page
   return (
     <>
-      <NavBar/>
-      <motion.div 
-        animate={{rotate: 0}}
-      >
-
+      <NavBar/>      
       <Routes>
         <Route path='/' element={<About/>}/>
         <Route path='/showcase' element={<Showcase/>} />
       </Routes>
-
-      </motion.div>
       
     </>
   )

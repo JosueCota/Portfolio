@@ -2,7 +2,7 @@ import { skills } from "../../data/skills"
 import Skill from "./Skill"
 import style from "./skills.module.css"
 
-
+//Makes two skill divs and sends both skill arrays
 export default function Skills(){
 
     return ( 

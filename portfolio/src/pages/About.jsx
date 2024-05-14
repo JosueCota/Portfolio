@@ -2,6 +2,7 @@ import style from "./about.module.css"
 import Contacts from "./Contacts"
 import {motion} from "framer-motion"
 
+//Shows skills in staggered fade in motion 
 const listStagger = {
     initial: {
         opacity: 0
@@ -15,6 +16,7 @@ const listStagger = {
     }
 }
 
+//Displays about me section
 export default function About() {
     return (
         <div className={style.hero}>
