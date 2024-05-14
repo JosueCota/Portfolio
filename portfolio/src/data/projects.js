@@ -15,7 +15,7 @@ export const projects = [
     {
         projectName: "Speedsters",
         "projectDesc": "A 2D platformer made with a group of artists and programmers for the Video Game Development Club at CSUF.",
-        projectImg: "./src/public/static/images/projectImages/speedsters.png",
+        projectImg: "./src/public/static/images/speedsters.png",
         projectLink: "https://wafflefish.itch.io/speedsters",
         skills:
             [
@@ -26,7 +26,7 @@ export const projects = [
     {
         projectName: "Weather App",
         projectDesc: "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
-        projectImg: "./src/public/static/images/projectImages/weather-app.png",
+        projectImg: "./src/public/static/images/weather-app.png",
         projectLink: "https://github.com/JhoshuaAmpo/Speedsters",
         skills:
             [
