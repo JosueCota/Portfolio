@@ -1,10 +1,9 @@
 //Project data, easier than implementing json with fetch, avoids possible errors from rejected promises
-
 export const projects = [
     {
         projectName: "Portfolio",
         projectDesc: "Showcasing the progress I've made throughout my academic career using ReactJS along with TailwindCSS.",
-        projectImg: "./src/public/static/assets/react.svg",
+        projectImg: `./src/static/assets/react.svg`,
         projectLink: "https://github.com/JosueCota/JosueCota.github.io",
         skills:
             [
@@ -15,7 +14,7 @@ export const projects = [
     {
         projectName: "Speedsters",
         "projectDesc": "A 2D platformer made with a group of artists and programmers for the Video Game Development Club at CSUF.",
-        projectImg: "./src/public/static/assets/speedsters.png",
+        projectImg: `./src/static/assets/speedsters.png`,
         projectLink: "https://wafflefish.itch.io/speedsters",
         skills:
             [
@@ -26,7 +25,7 @@ export const projects = [
     {
         projectName: "Weather App",
         projectDesc: "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
-        projectImg: "./src/public/static/assets/weather-app.png",
+        projectImg: `./src/static/assets/weather-app.png`,
         projectLink: "https://github.com/JhoshuaAmpo/Speedsters",
         skills:
             [

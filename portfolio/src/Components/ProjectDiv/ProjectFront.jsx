@@ -1,8 +1,6 @@
 import style from "./project.module.css"
-import {motion, transform} from "framer-motion"
 
-
-
+//Contains front of project card
 export default function ProjectFront({projectName, projectImg, onClick}){
 
     return (

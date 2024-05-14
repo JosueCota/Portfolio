@@ -1,6 +1,6 @@
 import style from "./project.module.css"
 
-//Contains back of project
+//Contains back of project card
 export default function ProjectBack({projectDesc, projectLink, onClick, date, projectSkills}){
     
     return (
