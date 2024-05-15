@@ -1,5 +1,5 @@
-import LeftImg from "../../static/assets/leftArrow48.png"
-import RightImg from "../../static/assets/rightArrow48.png"
+import LeftImg from "../../assets/images/leftArrow48.png"
+import RightImg from "../../assets/images/rightArrow48.png"
 import style  from "./project.module.css"
 
 //Changes project

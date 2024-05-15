@@ -1,9 +1,9 @@
 import {motion} from "framer-motion"
 import style from "../pages/contacts.module.css"
-import gitImg from "../static/assets/github.svg"
-import emailImg from "../static/assets/email.svg"
-import linkedImg from "../static/assets/linkedin.svg"
-import resumeImg from "../static/assets/resume.svg"
+import gitImg from "../assets/images/github.svg"
+import emailImg from "../assets/images/email.svg"
+import linkedImg from "../assets/images/linkedin.svg"
+import resumeImg from "../assets/images/resume.svg"
 
 //Specifc animation each item does, fade in in this case
 const item = {
