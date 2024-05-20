@@ -7,7 +7,7 @@ export const projects = [
         projectName: "Portfolio",
         projectDesc: "Showcasing the progress I've made throughout my academic career using ReactJS along with TailwindCSS.",
         projectImg: `${import.meta.env.VITE_IMG_PATH}react.svg`,
-        projectLink: "https://github.com/JosueCota/JosueCota.github.io",
+        projectLink: "https://github.com/JosueCota/Portfolio",
         skills:
             [
                 "ReactJS","Tailwind", "Framer Motion", "Figma"
