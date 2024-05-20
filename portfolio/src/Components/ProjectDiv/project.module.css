@@ -106,7 +106,8 @@
     font-size: 25px;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 1700px) {
+    
     .cardContainer {
         margin: 20px auto;
         width: 500px;
@@ -121,5 +122,19 @@
         height: 100%;
         width: 100%;
     }
-    
+}
+
+@media screen and (max-width: 750px){
+
+    .cardContainer {
+        width: 400px;
+        height: 400px;
+    }
+    .img, .top {
+        height: 330px;
+    }
+    .top, .skills {
+        font-size: 20px;
+        padding: 5px;
+    }
 }

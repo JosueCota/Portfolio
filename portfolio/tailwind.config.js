@@ -5,9 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      gridTemplateColumns: {
-        'showcase': "1fr 1fr"
-      },
       colors: {
         "grey": "#254955"
       }

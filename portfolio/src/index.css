@@ -7,7 +7,10 @@
     --secondary: #4491ab;
 }
 
-/* width */
+
+
+@media only screen and (min-width: 600px) {
+    /* width */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -26,4 +29,5 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 
+} 
 }
