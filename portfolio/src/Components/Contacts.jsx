@@ -21,13 +21,13 @@ export default function Contacts() {
     return (
             <div className={style.contactsContainer} >
             <p className={style.p}>
-                Hi! Thank you for checking out my Porfolio. If you would like to connect, reach out to me through any of the following!
+                Hi! Thank you for checking out my Porfolio. If you would like to connect or view what I've done, click any of the following!
             </p>
             <motion.ul className={style.list}>
                 <motion.li variants={item}><a href="https://github.com/JosueCota" target="_blank"><img src={gitImg}/>Github</a></motion.li>
                 <motion.li variants={item}><a href="https://www.linkedin.com/in/josue-a-cota/" target="_blank"><img src={linkedImg}/>LinkedIn</a></motion.li>
                 <motion.li variants={item}><a href="mailto:xjaramis@gmail.com" target="_blank"><img src={emailImg}/>Email</a></motion.li>
-                <motion.li variants={item}><a href="https://docs.google.com/document/d/e/2PACX-1vRcNHTs2oZXLaLGfOXrOlxdriuuj97gs9n5U6rhv4U9RTzxayuiPXW5YMCjjXUsKHuHjkvzh_MwBFAg/pub" target="_blank"><img src={resumeImg}/>Resume</a></motion.li>
+                <motion.li variants={item}><a href="https://www.overleaf.com/read/pcbxptwntzby#222ed1" target="_blank"><img src={resumeImg}/>Resume</a></motion.li>
             </motion.ul>
             </div>
     )

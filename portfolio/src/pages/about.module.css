@@ -67,8 +67,10 @@
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px) {
     .hero {
-        width: 100%;
+        display: flex;
+        align-content: center;
     }
 }
+
