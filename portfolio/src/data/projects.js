@@ -6,7 +6,7 @@ export const projects = [
     {
         projectName: "Portfolio",
         projectDesc: "Showcasing the progress I've made throughout my academic career using ReactJS along with TailwindCSS.",
-        projectImg: `${import.meta.env.VITE_IMG_PATH}react.svg`,
+        projectImg: `./react.svg`,
         projectLink: "https://github.com/JosueCota/Portfolio",
         skills:
             [
@@ -17,7 +17,7 @@ export const projects = [
     {
         projectName: "Speedsters",
         "projectDesc": "A 2D platformer made with a group of artists and programmers for the Video Game Development Club at CSUF.",
-        projectImg: `${import.meta.env.VITE_IMG_PATH}speedsters.png`,
+        projectImg: `./speedsters.png`,
         projectLink: "https://wafflefish.itch.io/speedsters",
         skills:
             [
@@ -28,7 +28,7 @@ export const projects = [
     {
         projectName: "Weather App",
         projectDesc: "An android weather app made with two others using Android Studio. Designed UI/UX with figma and implemented API and weather game. ",
-        projectImg: `${import.meta.env.VITE_IMG_PATH}weather-app.png`,
+        projectImg: `./weather-app.png`,
         projectLink: "https://github.com/JhoshuaAmpo/Speedsters",
         skills:
             [
