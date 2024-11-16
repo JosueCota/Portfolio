@@ -35,4 +35,16 @@ export const projects = [
                 "Kotlin", "XML", "Android Studio", "Gradle", "Figma", "Retrofit Library"
             ],
         date: "Spring 2023"
-}];
+    },
+    {
+        projectName: "reThread",
+        "projectDesc": "A mobile app design project for a design-a-thon that aims to encourage healthier consumer behavior by offering second-hand fashion shopping.",
+        projectImg: `./rethread.png`,
+        projectLink: "https://www.figma.com/proto/DqyBZ4rVReTktwy6EIL0if/FullyBeyond-2024-Project?node-id=2-2&node-type=canvas&viewport=2050%2C3868%2C0.66&t=kx1QstNcpt3zYK4k-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=42%3A5952&show-proto-sidebar=1",
+        skills:
+            [
+                "Figma", "Miro", "Creative Design", "User Research"
+            ],
+        date: "Fall 2024"
+    },
+];

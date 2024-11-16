@@ -3,5 +3,5 @@
 export const skills = [
     [ "js", "python", "cpp", "kotlin", "css", "html", "csharp", "sql", "java" ],
 
-    [ "bootstrap", "mocha", "postman", "react", "android", "svelte", "express", "mysql", "unity", "unreal", "node" ]
+    [ "bootstrap", "mocha", "postman", "react", "android", "svelte", "express", "mysql", "unity", "unreal", "node", "figma", "mongo", "django" ]
 ];
