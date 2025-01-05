@@ -47,4 +47,15 @@ export const projects = [
             ],
         date: "Fall 2024"
     },
+    {
+        projectName: "UniRoomies",
+        "projectDesc": "Web application made for university students to find roommates and rooms.",
+        projectImg: `./rethread.png`,
+        projectLink: "https://myuniroomies.com",
+        skills:
+            [
+                "React", "Javascript", "Express", "MySQL", "AWS S3","Full Stack Development"
+            ],
+        date: "Fall 2024"
+    },
 ];
