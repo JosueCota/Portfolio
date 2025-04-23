@@ -21,7 +21,7 @@ export default function Contacts() {
     return (
             <div className={style.contactsContainer} >
             <p className={style.p}>
-                Hi! Thank you for checking out my Porfolio. If you would like to connect or view what I've done, click any of the following!
+                Hi! Thank you for checking out my Porfolio. If you would like to connect or view what I've made, click any of the following!
             </p>
             <motion.ul className={style.list}>
                 <motion.li variants={item}><a href="https://github.com/JosueCota" target="_blank"><img src={gitImg}/>Github</a></motion.li>

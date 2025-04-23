@@ -57,7 +57,6 @@ export default function Projects() {
         <div>
             <h1 className="text-3xl text-center">Projects</h1>
             <div className={style.container}>
-                <ChangeProjButton onClick={handleLeftClick} dir="left"/>
                 <motion.div
                 key={projectInd}
                 variants={fadeIn}
@@ -66,7 +65,10 @@ export default function Projects() {
                 >
                 <Project project={projects[projectInd]} setFront={setFront} front={front} handleFlipClick={handleFlipClick}/>
                 </motion.div>
+                <div className={style.buttons}>
+                <ChangeProjButton onClick={handleLeftClick} dir="left"/>
                 <ChangeProjButton dir={"right"} onClick={handleRightClick}/>
+                </div>
             </div>
         </div>
     )

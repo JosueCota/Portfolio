@@ -115,13 +115,10 @@
         
     }
     .img, .top {
-        height: 400px;
+        height: 90%;
         width: 100%;
     }
-    .cardFront, .cardBack {
-        height: 100%;
-        width: 100%;
-    }
+ 
 }
 
 @media screen and (max-width: 750px){
