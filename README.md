@@ -2,7 +2,7 @@
 Built with React, TailwindCSS, and Framer Motion. Hosted on Netlify.
 
 # Link
-[My Portfolio](https://jc-personal-portfolio.netlify.app/)
+[My Portfolio](https://josues-portfolio.netlify.app/)
 
 # Resources
 
